@@ -34,8 +34,8 @@
       
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
         
-        <button type="button" class="btn btn-primary btn-lg px-4" href="interCounty/interBook.php">InterCounty Train</button>
-        <button type="button" class="btn btn-dark btn-lg px-4" href="local/localbook.php">Local Train</button>
+        <button type="button" class="btn btn-primary btn-lg px-4" onclick="location.href='interCounty/interBook.php'">InterCounty Train</button>
+        <button type="button" class="btn btn-dark btn-lg px-4" onclick="location.href='local/localbook.php'">Local Train</button>
       </div>
     </div>
   </div>
