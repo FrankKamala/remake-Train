@@ -1,4 +1,5 @@
 <?php
+include('../header/header.php');
 
 ?>
 <!DOCTYPE html>
@@ -7,6 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inter.css">
     <title>Check Availability </title>
 </head>
 <body>
@@ -40,7 +42,7 @@
       <option value="Mombasa">Mombasa</option>
     </select>
   
-    <input type="submit" value="Submit">
+   
 
 
 
@@ -49,6 +51,10 @@
 <input type="date" id="travelDate" name="trip-Date"
        value="yyyy-mm-dd"
        min="2021-09-01" max="2022-09-31">
+
+
+
+       <input type="submit" value="Book Train">
   </form>
 </div>
     
