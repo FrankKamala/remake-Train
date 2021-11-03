@@ -1,5 +1,5 @@
 <?php
-include('../header/header.php');
+
 
 ?>
 <!DOCTYPE html>
@@ -12,6 +12,10 @@ include('../header/header.php');
     <title>Check Availability </title>
 </head>
 <body>
+<?php
+include('../header/header.php');
+
+?>
 
 
        <div>

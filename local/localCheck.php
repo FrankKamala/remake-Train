@@ -1,5 +1,5 @@
 <?php
-include('../header/header.php');
+
 
 ?>
 <!DOCTYPE html>
@@ -12,10 +12,14 @@ include('../header/header.php');
     <title>Check Availability </title>
 </head>
 <body>
+<?php
+include('../header/header.php');
+
+?>
 
 
        <div>
-  <form action="/action_page.php">
+  <form action="/localbook.php">
     <label for="from">From</label>
     <select id="stationFrom" name="from">
     <option value="SelectFrom">SelectFrom</option>
