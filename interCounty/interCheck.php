@@ -18,7 +18,7 @@ include('../header/header.php');
 ?>
 
 
-       <div>
+<div>
   <form action="/action_page.php">
     <label for="from">From</label>
     <select id="stationFrom" name="from">

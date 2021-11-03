@@ -5,4 +5,6 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Train Booking </a>
   </div>
+
+
 </nav>

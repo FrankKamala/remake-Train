@@ -8,7 +8,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="local.css">
+    <link rel="stylesheet" href="localBook.css">
+    <!-- <link rel="stylesheet" href="../interCounty/inter.css"> -->
+
+   
     <title>Check Availability </title>
 </head>
 <body>
@@ -18,7 +21,7 @@ include('../header/header.php');
 ?>
 
 
-       <div>
+<div>
   <form action="/localbook.php">
     <label for="from">From</label>
     <select id="stationFrom" name="from">
@@ -32,7 +35,7 @@ include('../header/header.php');
      
     </select>
 
-    
+  
 
     <label for="destination">To</label>
     <select id="destination" name="destination">
