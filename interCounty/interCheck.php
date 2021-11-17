@@ -58,9 +58,12 @@ include('../header/header.php');
        value="yyyy-mm-dd"
        min="2021-09-01" max="2022-09-31">
 
+<div class="d-grid">
+<button class="btn btn-primary" type="button"   onclick="location.href='intercountyDetail.php'">Book Now</button>
 
+</div>
 
-       <button class="btn btn-primary" type="button"   onclick="location.href='intercountyDetail.php'">Book Now</button>
+       
   </form>
 </div>
     
