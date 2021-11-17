@@ -63,9 +63,13 @@ include('../header/header.php');
 
 
 
-       <input type="submit" value="Book Train">
+       <div class="d-grid ">
+
+  <button class="btn btn-primary" type="button"   onclick="location.href='localDetail.php'">Book Now</button>
+</div>
   </form>
 </div>
+<!-- <button type="button" class="btn btn-outline-primary" onclick="location.href='book/commuter-form.php'" >Book Now</button> -->
     
 </body>
 </html>
