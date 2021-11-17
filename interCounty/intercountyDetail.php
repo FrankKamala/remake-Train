@@ -28,7 +28,7 @@
 
         <div class="col">
 
-        <div class="row mbali"><button type="button" class="btn btn-outline-primary">Book Now</button></div>
+        <div class="row mbali"><button type="button" class="btn btn-outline-primary" onclick="location.href='book/inter-county-form.php'">Book Now</button></div>
         </div>
         </div>
         

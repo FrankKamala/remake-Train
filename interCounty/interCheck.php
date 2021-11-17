@@ -60,7 +60,7 @@ include('../header/header.php');
 
 
 
-       <input type="submit" value="Book Train">
+       <button class="btn btn-primary" type="button"   onclick="location.href='intercountyDetail.php'">Book Now</button>
   </form>
 </div>
     
