@@ -1,4 +1,11 @@
 <?php
+include_once("../db/db_con.php");
+$sql="SELECT * From intercountydb";
+$resultset = mysqli_query($connection,$sql) or die ("database error:".mysqli_error($connection));
+
+
+
+
 
 ?>
 <!DOCTYPE html>
@@ -15,16 +22,21 @@
     <title>Bookings Available</title>
 </head>
 <body>
-    <div class="available">  
+ 
+ <div>
+ <div class="available">  
+    <?php
+  while ($record=mysqli_fetch_assoc($resultset)){
+  ?>
     <div class="container">
-  <div class="row-md">
-    <div class="col" id="UIName"><P>Madaraka InterCounty</P></div>
+   <div class="row-md">
+    <div class="col" id="UIName"><P><?php echo $record['train_name'];?></P></div>
     <div class="col">
         <div class ="row">
-        <P>From : <span class="from">Nairobi</span>          To:<span class="to">Mombasa</span> </P>
+        <P>From : <span class="from"><?php echo $record['train_from'];?></span>          To: <span class="to"><?php echo $record['train_to'];?></span> </P>
 
 
-        <P>Departure : <span>10:00</span>   Arrival:<span>3:00</span> </P>
+        <P>Departure : <span><?php echo date('g:i A',strtotime($record['time_dept']))?></span>   Arrival: <span><?php echo date('g:i A', strtotime($record['time_arr']));?></span> </P>
 
         <div class="col">
 
@@ -35,11 +47,15 @@
         
     <div class="w-100"></div>
    
-   
-  </div> 
+    </div> 
+ 
 
 </div>
-
+<?php } ?>
 </div>
+
+ </div>
+    
+
 </body>
 </html>
